@@ -22,6 +22,7 @@ Syncs an outlook calendar with your google calendar locally, without a service. 
 
 1. Make sure you have MSBuild in your path and open a terminal at the project root
 2. Run `msbuild /t:publish /p:Configuration=Release`
+3. Run to move the folder: `mv CalendarSync/bin/Release/net7.0/publish publish`
 3. It will create a build in the publish folder that you can put the following into:
 
 ## appsettings.json
@@ -54,3 +55,4 @@ Syncs an outlook calendar with your google calendar locally, without a service. 
 
 4. Once the above files have been setup, you can run the program:
 
+`./CalendarSync.exe`
